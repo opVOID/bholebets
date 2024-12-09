@@ -45,6 +45,9 @@ export function GameGrid() {
 export default function Dashboard() {
   return (
     <>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src="public/seo.png" alt="SEO" style={{ width: '400px', height: 'auto' }} />
+      </div>
       <WelcomeBanner />
       <h2 style={{ textAlign: 'center' }}>Games</h2>
       <GameGrid />
