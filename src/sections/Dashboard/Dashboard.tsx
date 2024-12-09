@@ -46,7 +46,7 @@ export default function Dashboard() {
   return (
     <>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src="/public/SEO.png" alt="SEO" style={{ width: '400px', height: 'auto' }} />
+        <img src="/SEO.png" alt="SEO" style={{ width: '400px', height: 'auto' }} />
       </div>
       <WelcomeBanner />
       <h2 style={{ textAlign: 'center' }}>Games</h2>
