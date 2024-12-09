@@ -115,9 +115,10 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Gamba v2 👋</h1>
+        <h1>Welcome to Butthole Bets 👋</h1>
         <p>
           A fair, simple and decentralized casino on Solana.
+          Built upon Gamba.so
         </p>
       </div>
       <Buttons>
@@ -126,9 +127,6 @@ export function WelcomeBanner() {
         </button>
         <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
           🚀 Add Liquidity
-        </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
         </button>
       </Buttons>
     </Welcome>
