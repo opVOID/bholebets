@@ -32,8 +32,9 @@ h1, h2 {
 }
 
 body {
-  background: url('/bg.webp') no-repeat center center fixed;
+  background: url('/bg.webp') no-repeat center center fixed, #061936;
   background-size: cover;
+  background-blend-mode: overlay;
   color: var(--text-color);
   cursor: default;
   margin: 0;
@@ -41,7 +42,6 @@ body {
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
 }
-
 a {
   color: inherit;
   text-decoration: none;
